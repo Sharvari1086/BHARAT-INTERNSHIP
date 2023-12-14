@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    padding: 9px 26px;
+    font-weight: 700;
+    background-color: rgba(188, 184, 184, 0.142);
+    color: white;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    max-width: 90;
+    max-height: 40;
+    gap: 23px;
+
+}
+
+.btn-red {
+    background-color: red;
+    padding: 3px 25px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.main input {
+    padding: 10px 123px 10px 6px;
+    font-size: 12px;
+    color: white;
+    border-radius: 4px;
+    background-color: rgb(23, 23, 0.7);
+    border: 1px solid rgb(241, 241, 241, 0.4);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg {
+    position: relative;
+
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :first-child {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.secImg1 {
+    position: relative;
+
+}
+
+.secImg1 img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg1 video {
+    position: absolute;
+    top: 33px;
+    right: 112px;
+    width: 351px;
+}
+
+.secImg3 {
+    position: relative;
+
+}
+
+.secImg3 img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    width: 63%;
+    margin-top: 0;
+    top: 14px;
+    left: 103px;
+    background-color: rgba(0, 0, 0, 0.146);
+    height: 105px;
+    position: relative;
+    border: 2px solid rgba(148, 148, 148, 0.495);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.fleximg {
+    width: 20px;
+    height: 0px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+.fleximg img {
+    width: 74px;
+    height: 88px;
+}
+
+.flextxt {
+    display: flex;
+
+
+    margin: auto;
+    color: rgb(255, 255, 255);
+    position: absolute;
+
+}
+
+.secImg3 .flextxt .firsttxt {
+    position: relative;
+    font-size: 96%;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    top: 24px;
+    left: 59px;
+}
+
+.secImg3 .flextxt .secondtxt {
+    position: relative;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    top: 55px;
+    left: -93px;
+    color: rgb(32, 32, 255);
+}
+
+.gif {
+    position: relative;
+    top: 16px;
+    left: 129px;
+}
+
+.gif img {
+    width: 62px;
+    height: 67px;
+}
+
+div.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 30px;
+    color: white;
+    margin: -137px;
+    position: relative;
+    top: 94px
+}
+
+div.faq h1 {
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+div.questions {
+    max-width: 635px;
+    font-size: 24px;
+    padding: 3px;
+}
+
+div.question {
+    position: relative;
+    background-color: #303030;
+}
+
+div.question svg {
+    display: flex;
+    flex-direction: column;
+    width: 41px;
+    height: 30px;
+    right: 7px;
+    left: 527px;
+    top: -23px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: all 0.2s ease;
+}
+
+div.question .header {
+    display: block;
+    padding: 20px 30px;
+    border-bottom: 1px solid #000000;
+    cursor: pointer;
+    top: 0;
+}
+
+div.question div.answer {
+    padding: 0 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+div.question input[type="checkbox"] {
+    display: none;
+}
+
+div.question input[type="checkbox"]:checked~div.answer {
+    padding: 0 30px;
+    max-height: 600px;
+}
+
+div.question input[type="checkbox"]:checked~.header svg {
+    transform: rotate(45deg);
+}
+
+.hero1 {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+    top: 208px;
+}
+
+.btn1 {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(188, 184, 184, 0.142);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.btn-red1 {
+    background-color: red;
+    padding: 3px 25px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 4px;
+    color: white;
+}
+
+.hero-buttons1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.email {
+    padding: 10px 123px 10px 6px;
+    font-size: 12px;
+    color: white;
+    border-radius: 4px;
+    background-color: rgb(23, 23, 0.7);
+    border: 1px solid rgb(241, 241, 241, 0.4);
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+    top: 0;
+    left: 0;
+    max-width: 90vw;
+    padding: 75px 0;
+    top: 0;
+    left: 0;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    position: relative;
+    top: 205px;
+    ;
+    left: 0;
+}
+
+.footer-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.navig {}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.dropbtn {
+    padding: 9px 18px 10px 17px;
+    font-weight: 700;
+    background-color: rgba(188, 184, 184, 0.142);
+    color: white;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 26px;
+
+}
+
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    max-width: 124px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.836);
+    z-index: 1;
+    padding: 8px 43px 10px 17px;
+    font-weight: 900;
+    background-color: rgba(188, 184, 184, 0.409);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
